@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.heder-stl{
+background: -webkit-linear-gradient(45deg, rgb(1, 0, 60), rgb(129, 0, 255));
+background: -moz-linear-gradient(45deg, rgb(1, 0, 60), rgb(129, 0, 255));
+background: linear-gradient(45deg, rgb(1, 0, 60), rgb(129, 0, 255));
+width: 100%;
+height: 100vh;
+}
+.flex{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+.header-icon i{
+    padding: 1.5px;
+    width: 18px;
+    height: 18px;
+    background: rgb(56, 113, 186);
+    border-radius: 50%;
+    gap: 20px;
+    cursor: pointer;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navbar ul a{
+    color: white;
+text-decoration: none;
+}
+.navbar ul a:hover{
+transform: scale(1.1);
+color: rgb(245, 131, 131);
+}
+.navbar img{
+    width: 160px;
+}
+
+.navbar{
+    padding: 20px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.header-text{
+    width: 550px;
+color: white;   
+}
+.header-text h3{
+    font-size: 35px;
+font-weight: 500;
+}
+.header-text p{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    width: 450px;
+}
+.header-btn{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.btn-hover{
+    width: 170px;
+    padding: 10px;
+    background: rgb(248, 99, 107);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;    
+}
+.btn-hover:hover{
+    transform: scale(1.1);
+}
+.heder-btn img{
+ align-items: center;
+ margin-left: 40px;
+}
+.header-img img{
+    cursor: pointer;
+}
+span{
+    color: rgb(248, 99, 107);
+}
+.stl-section{
+    padding-top: 70px;
+    text-align: center;
+}
+.stl-section h1{
+    font-size: 30px;
+font-weight: 500;
+}
+.stl-section p{
+    font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+font-style: italic;
+}
+.card{
+    text-align: center;
+    border-radius: 5px;
+box-shadow: 0px 22px 40px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+width: 200px;
+height: 286.13px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    padding-top: 80px;
+}
+.img{
+    padding-top: 50px;
+   margin-left: 480px;
+}
+.stl-nav h2{
+    padding-top: 50px;
+    text-align: left;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+.k{
+    padding-top: 40px;
+}
+
